@@ -1,0 +1,46 @@
+/* Estilos básicos para centrar el contenido y darle estilo */
+body {
+    font-family: 'Russo One', sans-serif; /* Fuente con un estilo moderno y tecnológico */
+    background: radial-gradient(circle, #0d0d0d, #1a1a1a);
+    color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal con estilo de panel futurista */
+.container {
+    text-align: center;
+    background-color: rgba(25, 25, 25, 0.85);
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid #00b3b3;
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.5), inset 0 0 20px rgba(0, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+}
+
+/* Título con un diseño de pantalla digital */
+h1 {
+    color: #00b3b3;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 12px #00b3b3, 0 0 24px #00b3b3;
+}
+
+/* Div que muestra el resultado con un estilo de texto digital */
+#resultado {
+    color: #e0e0e0;
+    font-size: 1.6rem;
+    font-weight: bold;
+    background: linear-gradient(135deg, #00b3b3, #009999);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 12px rgba(0, 255, 255, 0.6);
+    border: 1px solid #00b3b3;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
